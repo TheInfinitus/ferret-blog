@@ -83,6 +83,7 @@ function GetinTouch() {
 let getinTouchButton = document.querySelector("button");
 getinTouchButton.addEventListener("click", GetinTouch);
 
+document.querySelector("h1").style.cursor = "pointer";
 document.querySelector("h1").addEventListener("click", function () {
   location.reload();
 });
