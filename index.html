@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    .container {
+      max-width: 600px;
+      display: block;
+      margin: 0 auto;
+      padding: 2px 60px;
+      background: #fff7ef;
+      border-radius: 30px;
+    }
+    h2 {
+      text-align: center;
+      margin-top: 8px;
+      margin-bottom: 5px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 40px;
+      color: #573a18;
+      margin: -10px 5px 5px 5px;
+    }
+    h3 {
+      text-align: center;
+      border: 1px solid #775125;
+      margin: 15px;
+      margin-bottom: 18px;
+      padding: 10px;
+      border-radius: 4px;
+    }
+    #opening-photo {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      border-radius: 12px;
+    }
+    p {
+      line-height: 1.5;
+      font-size: 13px;
+      margin: 15px 0 15px;
+    }
+    ul {
+      padding: 0 auto;
+      margin: 0;
+    }
+    li {
+      display: inline;
+      list-style-type: none;
+    }
+    .ferret-1 {
+      border-radius: 50%;
+      padding: 5px 10px 5px 10px;
+    }
+    .ferret-1:hover {
+      opacity: 0.9;
+      cursor: pointer;
+    }
+    .ferret-2 {
+      border-radius: 50%;
+      padding: 5px 10px 5px 10px;
+    }
+    .ferret-2:hover {
+      opacity: 0.85;
+      cursor: pointer;
+    }
+    .ferret-3 {
+      border-radius: 50%;
+      padding: 5px 10px 5px 10px;
+    }
+    .ferret-3:hover {
+      opacity: 0.75;
+      cursor: pointer;
+    }
+    .ferret-4 {
+      border-radius: 50%;
+      padding: 5px 10px 5px 10px;
+    }
+    .ferret-4:hover {
+      opacity: 0.85;
+      cursor: pointer;
+    }
+    .ferret-5 {
+      border-radius: 50%;
+      padding: 5px 10px 5px 10px;
+    }
+    .ferret-5:hover {
+      opacity: 0.85;
+      cursor: pointer;
+    }
+    .wiki-ferret {
+      text-align: center;
+      font-size: 14px;
+      margin: 4px;
+      margin-bottom: 12px;
+    }
+    button {
+      display: block;
+      margin: 25px auto;
+      background: #573a18;
+      color: white;
+      font-size: 18px;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 6px;
+      box-shadow: 3px 3px 7px rgb(0 0 0 / 30%);
+      transition: all 200ms ease-in-out;
+    }
+    button:hover {
+      opacity: 0.85;
+      cursor: pointer;
+    }
+    .my-instagram {
+      text-align: center;
+      margin: 6px;
+    }
+    .creator {
+      font-size: 11px;
+      text-align: center;
+      margin: 6px;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <h2>Meet Our</h2>
+      <h1>☕ Coffee Business ☕</h1>
+      <h3>Our Ferret Family</h3>
+      <img
+        id="opening-photo"
+        src="https://i.postimg.cc/J4XhrYNZ/Opening.jpg"
+        width="600"
+      />
+      <p>
+        Did you know that a group of ferrets is called
+        <strong>"Business"?</strong> This demo website is dedicated to the life
+        of our lovely fur family,
+        <strong>The Coffee Business.</strong>
+        Moka, Latte, Sugar, Lunga & Khalua are the members of our fur family and
+        in this dedicated website you will be able to learn more about them.
+        <br />
+        <br />
+
+        If you clic on the images below you will learn more about the members of
+        our furry family.
+      </p>
+      <ul class="ferret-List">
+        <li id="moka">
+          <img
+            class="ferret-1"
+            src="https://i.postimg.cc/6p0Y8Xnv/Moka-b-n.jpg"
+            onclick="changeImage('https://i.postimg.cc/K4XKmn5h/Moka.jpg')"
+            width="80"
+          />
+        </li>
+        <li>
+          <img
+            class="ferret-2"
+            src="https://i.postimg.cc/RCkP8GvN/Latte-b-n.jpg"
+            onclick="changeImage('https://i.postimg.cc/T15L8kgc/Latte.jpg')"
+            width="80"
+          />
+        </li>
+        <li>
+          <img
+            class="ferret-3"
+            src="https://i.postimg.cc/BvpbW8xz/Sugar-b-n.jpg"
+            onclick="changeImage('https://i.postimg.cc/SQnDNkGg/Sugar.jpg')"
+            width="80"
+          />
+        </li>
+        <li>
+          <img
+            class="ferret-4"
+            src="https://i.postimg.cc/RVwPzf0G/Lunga-b-n.jpg"
+            onclick="changeImage('https://i.postimg.cc/8kxw79KN/Lunga.jpg')"
+            width="80"
+          />
+        </li>
+        <li>
+          <img
+            class="ferret-5"
+            src="https://i.postimg.cc/MKs88y4V/Khalua-b-n.jpg"
+            onclick="changeImage('https://i.postimg.cc/HxhchGcx/Khalua.jpg')"
+            width="80"
+          />
+        </li>
+      </ul>
+      <button>Get in Touch</button>
+      <div class="wiki-ferret">
+        <a href="https://en.wikipedia.org/wiki/Ferret" target="_blank">
+          Learn more about Mustellas on Wikipedia</a
+        >
+      </div>
+      <p class="my-instagram">
+        Visit my Instagram:
+        <a
+          class="instagram-link"
+          href="https://www.instagram.com/sabacreative/"
+          target="_blank"
+        >
+          <em>SabaCreative</em>
+        </a>
+      </p>
+      <p class="creator">
+        This page was built by <strong> <em>Saba Mesa</em></strong>
+      </p>
+    </div>
+
+    <script>
+      function ferretMoka() {
+        let pUpdate = document.querySelector("p");
+        pUpdate.innerHTML =
+          "She is a ferret with polecat colours and our <strong>first girl</strong>. She's been 3 and half years with us and is our most gentle and caring ferret. She is like a mum to all the other ferrets and take care of all of them but at same time she is a bit clumsy, the perfect hufflepuff specimen. A interesting thing only she does is that when we do cry noises she comes running to check on us and to give us kisses until she feels we are okay. Like I said, she is the Momma of our team. <br /> Thank you for reading about these furry jills.";
+        let h3Update = document.querySelector("h3");
+        h3Update.innerHTML = "Moka, The Lovely Ferret";
+      }
+
+      let ferretMokaInfo = document.querySelector(".ferret-1");
+      ferretMokaInfo.addEventListener("mousedown", ferretMoka);
+
+      function changeImage(source) {
+        var image = document.querySelector("#opening-photo");
+        image.src = source;
+      }
+
+      function ferretLatte() {
+        let pUpdate = document.querySelector("p");
+        pUpdate.innerHTML =
+          "This girl sadly is not longer with us and left us when she was only 7 months. She was blood sister to Moka and her attitude was more adventurous than her and probably was the most clever girl we got. An a proof of this was a couple of puzzle games she did in record time. I really really wish we could have share more time together. <br /> Thank you for reading about these furry jills.";
+        let h3Update = document.querySelector("h3");
+        h3Update.innerHTML = "Latte, The Rainbow Ferret";
+      }
+
+      let ferretLatteInfo = document.querySelector(".ferret-2");
+      ferretLatteInfo.addEventListener("mousedown", ferretLatte);
+
+      function ferretSugar() {
+        let pUpdate = document.querySelector("p");
+        pUpdate.innerHTML =
+          "The first months she was really mischief, jumpy and playful but as adult ferret with now 2 years old, she honor her name everyday being our <strong>sweetest girl</strong>. She loves hugs, kisses, treats of course, her bonding with Moka is amazing and she's the only ferret that tries to snatch us by grabbing our fingers to then hide us inside her cuddling place where she will start to give you kisses and share her bed with you, in this ocassions don't try to run because she will find you and drag you again to keep you right next to her. Thank you for reading about these furry jills.";
+        let h3Update = document.querySelector("h3");
+        h3Update.innerHTML = "Sugar, The Mischief Ferret";
+      }
+
+      let ferretSugarInfo = document.querySelector(".ferret-3");
+      ferretSugarInfo.addEventListener("mousedown", ferretSugar);
+
+      function ferretLunga() {
+        let pUpdate = document.querySelector("p");
+        pUpdate.innerHTML =
+          "Well... this girl is <strong>Pure Fire!</strong> It has been a challenge to train her with such a strong attitude. She's our 1 years old angora girl and the tiniest one in our business but that doesn't stop her. She gives the biggest jumps, climb higher than anyone and perform tricks as any other, her determination is strong as her and she will constantly stay still watching all that is happening inside the playing room, watching... learning... planning who knows what! So be careful, don't touch. Thank you for reading about these furry jills.";
+        let h3Update = document.querySelector("h3");
+        h3Update.innerHTML = "Lunga, The Bold Ferret";
+      }
+
+      let ferretLungaInfo = document.querySelector(".ferret-4");
+      ferretLungaInfo.addEventListener("mousedown", ferretLunga);
+
+      function ferretKhalua() {
+        let pUpdate = document.querySelector("p");
+        pUpdate.innerHTML =
+          "Khalua, the joyful ferret, she <strong>overflows happiness</strong>. We haven't take a proper photoshoot and currently is on bonding steps with her sister but she already proof she's the happier and is really lovely that from all the toys they have she prefer to play with us. Interesting info, shes is only 4 months old and she's is already bigger than any others! We are guessing she will still grow a bit more. <br >Thank you for reading about these furry jills.";
+      }
+
+      let ferretKhaluaInfo = document.querySelector(".ferret-5");
+      ferretKhaluaInfo.addEventListener("mousedown", ferretKhalua);
+
+      function GetinTouch() {
+        let touch = prompt("What is your Name?");
+        let ferretQuestion = prompt(
+          "Would you like to know more about our Coffee Business? ☕☕☕ Please use YES or NO"
+        );
+
+        if (
+          ferretQuestion === "YES" ||
+          ferretQuestion === "yes" ||
+          ferretQuestion === "Yes" ||
+          ferretQuestion === "Yeah"
+        ) {
+          alert(
+            "Thank you " +
+              touch +
+              " That's Great! Please visit my instagram @sabacreative"
+          );
+        } else {
+          alert(
+            "&#%@ " +
+              touch +
+              "! Really?💀*Annoyed Ferret Noises in the Background*💀"
+          );
+        }
+      }
+
+      let getinTouchButton = document.querySelector("button");
+      getinTouchButton.addEventListener("click", GetinTouch);
+    </script>
+  </body>
+</html>
